@@ -1,0 +1,23 @@
+{
+  "name": "2bit-chat",
+  "version": "1.0.0",
+  "description": "Host your own bots!",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "^7.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmetEsad/2bit-chat.git"
+  },
+  "author": "AhmetEsad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmetEsad/2bit-chat/issues"
+  },
+  "homepage": "https://github.com/AhmetEsad/2bit-chat#readme"
+}
