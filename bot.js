@@ -5,7 +5,7 @@ var prefix = '!';
 
 client.on('ready', function () {
     client.login('username', 'password');
-    client.switchChannel('general');
+    client.switchToChannel('general');
 });
 
 client.on('message', function (msg) {
