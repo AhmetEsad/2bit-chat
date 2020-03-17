@@ -31,7 +31,7 @@ module.exports = {
             this.switchToChannel = function (channel, password) {
                 ws.send(JSON.stringify({ type: 'channel', channel: channel, password: password }));
             }
-            var ws = new Websocket('wss://2bit--ahmetesad.repl.co');
+            var ws = new Websocket('wss://2bit.team/');
             setInterval(function () {
                 ws.send(JSON.stringify({ type: 'ping' }));
             }, 60000);
