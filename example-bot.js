@@ -1,4 +1,4 @@
-const bitchat = require('./events');
+const bitchat = require('./index');
 const client = new bitchat.client();
 
 var prefix = '!';
